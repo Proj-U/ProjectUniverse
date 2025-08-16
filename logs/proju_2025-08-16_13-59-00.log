@@ -1,0 +1,29 @@
+Failed to allocate singularity: Cannot allocate memory
+Particle properties:{
+	mass=9.10938e-31
+	x=1
+	y=2
+	z=5
+	vx=0
+	vy0
+	vz=0
+	charge=-1.60218e-19
+}
+Wave properties:{
+	amplitude=9.000000
+	frequency=2.000000
+	wavelength=5.000000
+	phase=1.000000
+	intensity=5.000000
+	polarization[0]=2.000000
+	polarization[1]=6.000000
+	polarization[2]=2.000000
+	Velocity={
+		Direction={
+			x=95.000000
+			y=5.000000
+			z=1.000000
+		}
+		speed=10.000000
+	}
+}

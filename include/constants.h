@@ -1,0 +1,47 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+#define c 299792458
+#define h 6.62607015e-34
+#define ℏ 1.054571817e-34
+#define k 1.380649e-23
+#define G 6.67430e-11
+#define Λ 1.089e-52
+#define σ 5.670374419e-8
+#define c_1 3.741771852e-16
+#define c_1L 1.191042972e-16
+#define c_2 1.438776877e-2 
+#define b 2.897771955e-3 
+#define b_r 5.878925757e10
+#define b_entropy 3.002916077e-3
+#define e 1.602176634e-19
+#define G_0 7.748091729e-5 
+#define R_K 25812.80745
+#define K_J 483597.8484e9 
+#define Φ_0 2.067833848e-15
+#define α 0.0072973525643
+#define μ_0 1.25663706127e-6 
+#define Z_0 376.730313412
+#define ε_0 8.8541878188e-12
+#define m_e 9.1093837139e-31
+#define m_μ 1.883531627e-28
+#define m_T 3.16754e-27
+#define m_p 1.67262192595e-27
+#define m_n 1.67492750056e-27
+#define g_e 2.00231930436092
+#define g_μ 2.002331841
+#define g_p 5.5856946893
+#define μ_B 9.2740100657e-24
+#define μ_N 5.0507837393e-27
+#define r_e 2.8179403205e-15
+#define σ_e 6.6524587051e-29
+#define a_0 5.29177210544e-11
+#define R_INF 10973731.568157
+#define R_y 2.1798723611030e-18
+#define E_h 4.3597447222060e-18
+#define N_A 6.02214076e23 
+#define R 8.31446261815324
+#define F 96485.3321233100184
+#define m_u 1.66053906892e-27
+#define M_u 1.00000000105e-3
+#define Δν_Cs 9192631770
+#endif

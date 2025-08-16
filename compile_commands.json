@@ -1,0 +1,87 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "out/universe/objects/particles/particle.o",
+      "src/universe/objects/particles/particle.c"
+    ],
+    "directory": "/home/m1829js/Documents/git/proju",
+    "file": "/home/m1829js/Documents/git/proju/src/universe/objects/particles/particle.c",
+    "output": "/home/m1829js/Documents/git/proju/out/universe/objects/particles/particle.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "out/universe/science/maths/physics/wave.o",
+      "src/universe/science/maths/physics/wave.c"
+    ],
+    "directory": "/home/m1829js/Documents/git/proju",
+    "file": "/home/m1829js/Documents/git/proju/src/universe/science/maths/physics/wave.c",
+    "output": "/home/m1829js/Documents/git/proju/out/universe/science/maths/physics/wave.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "out/universe/science/maths/physics/physics.o",
+      "src/universe/science/maths/physics/physics.c"
+    ],
+    "directory": "/home/m1829js/Documents/git/proju",
+    "file": "/home/m1829js/Documents/git/proju/src/universe/science/maths/physics/physics.c",
+    "output": "/home/m1829js/Documents/git/proju/out/universe/science/maths/physics/physics.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "out/universe/science/maths/physics/forces.o",
+      "src/universe/science/maths/physics/forces.c"
+    ],
+    "directory": "/home/m1829js/Documents/git/proju",
+    "file": "/home/m1829js/Documents/git/proju/src/universe/science/maths/physics/forces.c",
+    "output": "/home/m1829js/Documents/git/proju/out/universe/science/maths/physics/forces.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-O2",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "out/universe/science/maths/maths.o",
+      "src/universe/science/maths/maths.c"
+    ],
+    "directory": "/home/m1829js/Documents/git/proju",
+    "file": "/home/m1829js/Documents/git/proju/src/universe/science/maths/maths.c",
+    "output": "/home/m1829js/Documents/git/proju/out/universe/science/maths/maths.o"
+  }
+]
