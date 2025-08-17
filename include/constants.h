@@ -5,6 +5,7 @@
 #define ℏ 1.054571817e-34
 #define k 1.380649e-23
 #define G 6.67430e-11
+#define k_e 8.987551787e9
 #define Λ 1.089e-52
 #define σ 5.670374419e-8
 #define c_1 3.741771852e-16

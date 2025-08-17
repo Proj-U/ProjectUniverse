@@ -1,23 +1,16 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include"particle.h"
-particle new_particle(double px,double py,double pz,double m,double charge){
-particle p={px,py,pz,m,0.0,0.0,0.0,charge};
-return p;
+#include"vector.h"
+particle new_particle(double x,double y,double z,double m,double charge){return (particle){{0.0,0.0,0.0},{x,y,z},m,charge};}
+void acc_p(particle*p,vector3 a,double dt){
+p->velocity.x+=a.x*dt;
+p->velocity.y+=a.y*dt;
+p->velocity.z+=a.z*dt;
 }
-void apply_force(double fx,double fy,double fz,double dt,particle*p){
-p->vx+=fx/p->mass*dt;
-p->vy+=fy/p->mass*dt;
-p->vz+=fz/p->mass*dt;
+void update_ppos(particle*p,double dt){
+p->pos.x+=p->velocity.x*dt;
+p->pos.y+=p->velocity.y*dt;
+p->pos.z+=p->velocity.z*dt;
 }
-void accelerate_p(double ax,double ay,double az,double dt,particle*p){
-p->vx+=ax*dt;
-p->vy+=ay*dt;
-p->vz+=az*dt;
-}
-void update_pos_p(double dt,particle*p){
-p->x+=p->vx*dt;
-p->y+=p->vy*dt;
-p->z+=p->vz*dt;
-}
-void printp(particle p){printf("Particle properties:{\n\tmass=%g\n\tx=%g\n\ty=%g\n\tz=%g\n\tvx=%g\n\tvy%g\n\tvz=%g\n\tcharge=%g\n}\n",p.mass,p.x,p.y,p.z,p.vx,p.vy,p.vz,p.charge);}
+void printp(particle p){printf("Particle properties:{\n\tmass=%g\n\tx=%g\n\ty=%g\n\tz=%g\n\tvx=%g\n\tvy%g\n\tvz=%g\n\tcharge=%g\n}\n",p.mass,p.pos.x,p.pos.y,p.pos.z,p.velocity.x,p.velocity.y,p.velocity.z,p.charge);}
