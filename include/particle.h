@@ -10,4 +10,5 @@ void printp(particle p);
 #define electron(x,y,z) (new_particle(x,y,z,m_e,-e))
 #define proton(x,y,z) (new_particle(x,y,z,m_p,e))
 #define neutron(x,y,z) (new_particle(x,y,z,m_n,e))
+#define NULLP (new_particle(-1,-1,-1,-1,-1))
 #endif
